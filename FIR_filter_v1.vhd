@@ -164,7 +164,7 @@ END mux8para3;
 
 ARCHITECTURE dataflow OF mux8para3 IS
 BEGIN
-PROCESS (sel) -- lista de sensibilização
+PROCESS (sel) -- lista de sensibilizaÃ§Ã£o
 BEGIN
 CASE sel IS
 WHEN "000" => Y <= a;
